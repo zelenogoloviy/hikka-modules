@@ -19,23 +19,23 @@
 
 # AI-Generated Content Disclaimer
 # ---------------------------------
-# The content provided here has been generated using artificial intelligence (AI) technologies. 
+# The content provided here has been generated using artificial intelligence (AI) technologies.
 # Please note the following:
 
 # 1. Accuracy and Reliability:
-# The information, data, and statements presented in this content may not be accurate or factual. 
+# The information, data, and statements presented in this content may not be accurate or factual.
 # All outputs are automatically generated and have not been manually verified.
 
 # 2. No Liability:
-# The authors, developers, and platforms associated with the creation of this content are not liable 
+# The authors, developers, and platforms associated with the creation of this content are not liable
 # for any consequences arising from its use. The content is provided "as is" without warranties of any kind.
 
 # 3. Intended Use:
-# This material is intended for informational purposes only. For critical decisions, please consult 
+# This material is intended for informational purposes only. For critical decisions, please consult
 # verified sources or qualified professionals.
 
 # 4. Artificial Intelligence:
-# The content was generated without direct human intervention in the creation process, which may 
+# The content was generated without direct human intervention in the creation process, which may
 # affect its quality, accuracy, or relevance.
 
 # We encourage you to critically evaluate the information and not treat it as definitively reliable.
@@ -49,22 +49,29 @@
 # scope: Z
 # scope: Z 0.0.1
 # ---------------------------------------------------------------------------------
-#imports
+
 from .. import loader, utils
-#class
+
+
 @loader.tds
 class z(loader.Module):
     """z"""
 
-    strings = {"name": "Z", "z": "Z"}
-    strings_ru = {"z": "Z"}
+    strings = {
+        "name": "Z", 
+        "z": "Z"
+    }
+
+    strings_ru = {
+        "z": "Z"
+    }
 
     @loader.command(
         ru_doc="Z",
+        en_doc="Z"
     )
-    #function
     async def z(self, message):
-        """Z"""
-        #Z
         await utils.answer(message, self.strings("z"))
+
+
 # added symbols: ! #WARNING: AI CONTENT
