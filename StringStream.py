@@ -1,12 +1,12 @@
 # MIT License
 # Copyright (c) 2025 zelenogoloviy
 # ---------------------------------------------------------------------------------
-# Name: AezaStatus
-# Description: Модуль для проверки доступности аренды серверов Aeza.
+# Name: StringStreamMod
+# Description: Модуль для построчного вывода текста с задержкой в инлайн-режиме.
 # Author: @zelenogoloviy_m
 # ---------------------------------------------------------------------------------
 # meta developer: @zelenogoloviy_m
-__version__ = (0, 0, 1)
+__version__ = (0, 1, 0)
 from .. import loader, utils
 import asyncio
 from ..types import InlineCall
